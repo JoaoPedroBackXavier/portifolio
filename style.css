@@ -1,0 +1,245 @@
+*{
+    font-family: 'Fira Code', monospace;
+}
+
+header{
+    display: flex;
+    background: linear-gradient(rgb(0, 0, 0), rgb(29, 29, 29));
+    color: white;
+    justify-content: space-between;
+    align-items:start;
+    padding-right: 2%;
+    padding-left: 1%;
+    height: 500px;
+    flex-direction: column;
+    background-image: url(img/oculos-deitado-no-laptop-refletindo-luz-da-tela-no-escuro.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    font-size: larger;
+}
+
+#headerH{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navN{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#navN a{
+    font-family: 'Fira Code', monospace;
+    color: rgb(214, 45, 22);
+}
+
+.linkDecorado{
+    color: #E02C24;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#containerH{
+    position: relative;
+    height: 80%;
+}
+
+#posicao{
+    width: 30%;
+}
+
+.email-box{
+    background-color: #ffffff;
+    border: #f50049 solid 2px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email-box input{
+    border: none;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    height: 30px;
+    width: 60%;
+}
+.email-box button{
+    border: none;
+    background-color: #f50049;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1px; 
+    margin-bottom: 1px; 
+    padding: 10px;
+    width: 40%;
+}
+
+#section1{
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e05a5a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#section1 div{
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f50049;
+    cursor: pointer;
+}
+
+
+#pageFooter{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 300px;
+    background-image:linear-gradient( rgb(26, 26, 26) 20%,rgb(0, 0, 0) 100%);
+}   
+
+#menuIcon{
+    height: auto;
+    width: 50px;
+    padding: 5px;
+    background-color: #f50049;
+    border-radius: 100px;  
+    cursor: pointer;  
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+
+@media (min-width: 768px){
+    #menuIcon{
+        display: none;
+    }
+}
+
+@media (max-width: 769px){
+    #navN{
+        display: none;
+    }
+    #headerH {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #posicao {
+        width: 80%;
+    }
+}
+
+#foto{
+    border: rgb(26, 15, 36) double 10px;
+    box-shadow: 50px 0px 100px rgba(0, 0, 0, 0.4);
+}
+
+#section2{
+    padding: 100px;
+    padding-left: 10%;
+    height: 800px;
+    background-image: linear-gradient( rgb(17, 11, 27),rgb(31, 22, 46));
+    display: flex;
+    gap: 6%;
+}
+
+#divizinha{
+    padding-top: 20px;
+    width: 50%;
+}
+
+#titulo{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#b44848;
+}
+
+#divizona{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b45a4a;
+}
+
+#containerao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
